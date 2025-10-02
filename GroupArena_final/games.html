@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Games | GroupArena</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="page-content">
+    <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+      <div class="search-container">
+        <input id="search" placeholder="Search games by name or description..." />
+      </div>
+    </div>
+
+    <div id="filter-buttons"></div>
+    <div id="games-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="credits">© <span id="year2"></span> GroupArena</div>
+  </footer>
+  <div class="contact">
+  <a href="https://wa.me/+2347079965692" target="_blank" class="contact-link">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+  <a href="https://instagram.com/jp__willy" target="_blank" class="contact-link">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="mailto:john18prince.2007@example.com" class="contact-link">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

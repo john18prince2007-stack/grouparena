@@ -1,0 +1,72 @@
+{
+  "categories": {
+    "Quick Games": [
+      { "name": "Truth or Dare", "description": "Players choose between answering a question honestly or performing a dare.", "how_to_play": "Players take turns. If they pick 'Truth', they must answer honestly. If 'Dare', they must complete a challenge set by others." },
+      { "name": "Would You Rather", "description": "Players must choose between two difficult or funny scenarios.", "how_to_play": "One player asks a 'Would you rather' question. Each player must choose one option and explain why." },
+      { "name": "Rapid Fire Questions", "description": "Quick questions to answer under 5 seconds.", "how_to_play": "Players take turns asking fast, random questions. If someone takes too long, they're out." },
+      { "name": "Guess the Emoji", "description": "Guess the phrase or movie from emojis.", "how_to_play": "One player sends emojis representing something. Others guess what it is." },
+      { "name": "Name That Song", "description": "Guess the song from a line or audio clip.", "how_to_play": "A player sends a line from a song (or hums/records). First to guess wins." },
+      { "name": "Who Am I?", "description": "Players guess the character or person assigned to them.", "how_to_play": "Each player is secretly assigned a famous name. They ask yes/no questions to find out who they are." },
+      { "name": "Fast Typing", "description": "Compete who types the given word fastest.", "how_to_play": "Moderator sends a word. First to type it correctly wins the round." },
+      { "name": "Riddle Me This", "description": "Players solve riddles.", "how_to_play": "Moderator asks a riddle. Whoever answers first correctly wins." },
+      { "name": "Movie Lines", "description": "Guess the movie from a quote.", "how_to_play": "One player sends a movie line, others guess the movie." },
+      { "name": "Spell or Fail", "description": "Test spelling skills.", "how_to_play": "Moderator gives words to spell. A wrong spelling eliminates you." },
+      { "name": "Alphabet Chain", "description": "Continue words with last letter of previous word.", "how_to_play": "Start with any word. Next player must use the last letter to form a new word." },
+      { "name": "Finish the Lyrics", "description": "Complete the missing part of a song.", "how_to_play": "Moderator writes the first line of a song, players complete it." },
+      { "name": "Tongue Twisters", "description": "Say tricky phrases quickly without mistakes.", "how_to_play": "Moderator posts tongue twisters. Each player must type or voice record without error." },
+      { "name": "Guess the Picture", "description": "Identify blurred or cropped images.", "how_to_play": "Moderator sends a zoomed/blurred pic. Players guess what it is." },
+      { "name": "Math Sprint", "description": "Solve math problems quickly.", "how_to_play": "Moderator sends a math problem. First to solve wins." }
+    ],
+    "Big Social Games": [
+      { "name": "Mafia / Werewolf", "description": "Villagers vs hidden mafia/werewolves.", "how_to_play": "Assign roles. At night mafia kill, by day players vote. Mafia win if they outnumber villagers." },
+      { "name": "Spyfall", "description": "Find the spy who doesn’t know the location.", "how_to_play": "Everyone gets a location except the spy. Players ask questions, spy tries to guess location." },
+      { "name": "Undercover", "description": "Find the undercover word.", "how_to_play": "Everyone has the same word except undercover. Players describe and vote each round." },
+      { "name": "Detective Hunt", "description": "Detective solves a hidden mystery.", "how_to_play": "Assign roles. Detective asks questions to uncover guilty player." },
+      { "name": "Murder Mystery", "description": "Roleplay to find the murderer.", "how_to_play": "Players act with alibis. Murderer hides identity while others investigate." },
+      { "name": "Kingdom Roleplay", "description": "Players rule and betray in a kingdom.", "how_to_play": "Assign king, knight, traitor, etc. Each with private goals. Diplomacy and betrayal decide outcome." },
+      { "name": "Treasure Hunt", "description": "Solve puzzles to find treasure.", "how_to_play": "Moderator hides clues in chat. Players solve step by step." },
+      { "name": "Escape Room", "description": "Solve puzzles to escape.", "how_to_play": "Moderator presents locks/puzzles. Group solves within time limit." },
+      { "name": "Who’s the Liar?", "description": "Spot the liar among storytellers.", "how_to_play": "Each tells a story, one lies. Players question and vote liar." },
+      { "name": "Secret Agent Mission", "description": "Spies with secret objectives.", "how_to_play": "Moderator assigns missions. Spies complete secretly; if caught, fail." },
+      { "name": "Conspiracy", "description": "Form alliances to control group.", "how_to_play": "Players secretly ally and betray. Votes decide control." },
+      { "name": "The Resistance", "description": "Missions sabotaged by spies.", "how_to_play": "Divide into spies and resistance. Missions secretly succeed or fail. Debate who’s spy." },
+      { "name": "Zombie Apocalypse", "description": "Survive or infect others.", "how_to_play": "Assign survivors and zombies. Zombies infect, survivors try to escape." },
+      { "name": "Among Us (Chat)", "description": "Chat version of impostor game.", "how_to_play": "Assign impostors and crewmates. Impostors secretly eliminate while group debates." },
+      { "name": "Heist Game", "description": "Plan robbery with possible traitor.", "how_to_play": "Players plan heist. Moderator adds obstacles. Hidden traitor may sabotage." },
+      { "name": "Courtroom Drama", "description": "Fake trial roleplay.", "how_to_play": "Assign judge, lawyers, jury. Argue and jury votes outcome." },
+      { "name": "Cult Leader", "description": "Cult tries to recruit secretly.", "how_to_play": "Cult converts others secretly. Villagers resist before cult wins." },
+      { "name": "Secret Roles Kingdom", "description": "Fantasy roleplay with secret powers.", "how_to_play": "Assign fantasy roles. Players use powers strategically to win." },
+      { "name": "The Auction", "description": "Bid with fake coins on hidden items.", "how_to_play": "Moderator auctions items. Players bid. Values revealed later." },
+      { "name": "Survivor Island", "description": "Outlast through alliances and votes.", "how_to_play": "Players act as survivors. Group votes eliminations until one remains." }
+    ],
+    "Roleplay & Immersive Games": [
+      { "name": "Time Travel Adventure", "description": "Travel to different eras solving problems.", "how_to_play": "Moderator sets eras and events. Players roleplay decisions that affect outcomes." },
+      { "name": "Haunted House", "description": "Escape a haunted house via choices.", "how_to_play": "Moderator narrates haunted events. Players choose survival actions." },
+      { "name": "Fantasy Quest", "description": "Embark on RPG-style adventure.", "how_to_play": "Assign heroes/monsters. Moderator guides through quests and battles." },
+      { "name": "Post-Apocalypse Survival", "description": "Survive after apocalypse.", "how_to_play": "Players decide how to find food, allies, weapons. Moderator adds challenges." },
+      { "name": "Space Mission", "description": "Survive a space mission with traitors.", "how_to_play": "Assign astronaut roles. Moderator presents disasters. Hidden saboteur may betray." },
+      { "name": "Detective Case", "description": "Investigate a mystery story.", "how_to_play": "Moderator narrates crime story. Players investigate and solve." },
+      { "name": "Magic School Roleplay", "description": "Wizard academy roleplay.", "how_to_play": "Players are students with magical classes. Moderator gives scenarios and challenges." },
+      { "name": "Wild West Duel", "description": "Cowboy roleplay in the west.", "how_to_play": "Players roleplay as cowboys. Moderator sets duels, shootouts, and betrayals." },
+      { "name": "Virtual Kingdom", "description": "Roleplay ruling a digital world.", "how_to_play": "Assign digital roles. Diplomacy and power determine control." },
+      { "name": "Lost in the Jungle", "description": "Survive in wild jungle.", "how_to_play": "Players face wild animals, hunger, and traps. Moderator guides outcomes." }
+    ],
+    "Freaky Games (18+)": [
+      { "name": "Adult Truth or Dare", "description": "Spicy adult version of classic.", "how_to_play": "Same as normal but with 18+ truths/dares." },
+      { "name": "Never Have I Ever (18+)", "description": "Revealing adult edition.", "how_to_play": "Players admit if they've done adult prompts. Drink or point if true." },
+      { "name": "Flirty Questions", "description": "Ask flirty personal questions.", "how_to_play": "Players take turns asking flirty questions to others." },
+      { "name": "Dirty Would You Rather", "description": "Adult dilemmas game.", "how_to_play": "Players choose between two naughty situations." },
+      { "name": "Secret Crush", "description": "Reveal and guess crushes.", "how_to_play": "Moderator asks crush-related prompts, group guesses." },
+      { "name": "Fantasy Confessions", "description": "Share fantasies secretly.", "how_to_play": "Players write or confess fantasies. Others guess whose it is." },
+      { "name": "Kiss, Marry, Kill", "description": "Choose between 3 names.", "how_to_play": "Players pick who they’d kiss, marry, and kill." },
+      { "name": "Emoji Flirt", "description": "Flirt using only emojis.", "how_to_play": "Players send emoji-only flirty messages to each other." }
+    ],
+    "Premium / Custom Games": [
+      { "name": "Custom Game Creator", "description": "Players invent their own group games.", "how_to_play": "Group agrees on custom rules, moderator manages." },
+      { "name": "Personalized Trivia", "description": "Trivia about group members.", "how_to_play": "Moderator prepares trivia about the group. Players guess answers." },
+      { "name": "Inside Jokes Challenge", "description": "Test how well friends know each other.", "how_to_play": "Moderator asks questions about group’s private jokes. Correct answers score points." },
+      { "name": "Memory Lane", "description": "Reminisce with fun challenges.", "how_to_play": "Players recall funny or important past moments, others confirm." },
+      { "name": "Story Builder", "description": "Build a unique story together.", "how_to_play": "Each player adds one line at a time to build a custom group story." }
+    ]
+  }
+}

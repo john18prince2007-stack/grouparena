@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GroupArena — Turn your group chat into an arena</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  
+
+  <main class="page-content">
+    <section class="hero">
+      <h1 id="home-greeting">Welcome to GroupArena</h1>
+      <p>Turn your group chat into an arena of fun — quick games, big social games, and immersive roleplays.</p>
+      <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="filter-btn" href="games.html">Browse Games</a>
+        <a class="filter-btn" href="how-to-play.html">How to Play</a>
+        
+        <audio id="bg-music" loop>
+  <source src="assets/music/arena-theme.mp3" type="audio/mpeg">
+</audio>
+      </div>
+    </section>
+
+    <section style="margin-top:26px;">
+      <h2>Featured quick picks</h2>
+      <p>Try the Shuffle button on the Games page for a random pick — or explore categories and copy rules instantly.</p>
+    </section>
+  </main>
+
+  
+
+  <footer class="site-footer">
+    <div class="credits">© <span id="year"></span> GroupArena. All rights reserved. Prince.</div>
+  </footer>
+
+  <div class="contact">
+  <a href="https://wa.me/+2347079965692" target="_blank" class="contact-link">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+  <a href="https://instagram.com/jp__willy" target="_blank" class="contact-link">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="mailto:john18prince.2007@example.com" class="contact-link">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+
+  <script>
+    // footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

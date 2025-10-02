@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FAQ | GroupArena</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="page-content">
+    <h1>FAQ</h1>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What is GroupArena?</h3>
+      <div class="faq-answer"><p>GroupArena is a collection of party and social games you can run inside any group chat — quick rounds, roleplay, or big social deduction games.</p></div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">How do I add my own games?</h3>
+      <div class="faq-answer"><p>We plan to add a submission feature. For now, contact the developer to suggest games.</p></div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Are there age restrictions?</h3>
+      <div class="faq-answer"><p>Yes — Freaky Pack content is 18+. Be responsible and verify participants' ages before playing.</p></div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Can I use GroupArena on mobile?</h3>
+      <div class="faq-answer"><p>Yes. The site is mobile-first and works in mobile browsers.</p></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="credits">© <span id="year4"></span> GroupArena</div>
+  </footer>
+  <div class="contact">
+  <a href="https://wa.me/+2347079965692" target="_blank" class="contact-link">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+  <a href="https://instagram.com/jp__willy" target="_blank" class="contact-link">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="mailto:john18prince.2007@example.com" class="contact-link">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+
+  <script>
+    document.getElementById('year4').textContent = new Date().getFullYear();
+    document.addEventListener('click', (e) => {
+      const q = e.target.closest('.faq-question');
+      if (q) {
+        const ans = q.nextElementSibling;
+        if (ans) ans.style.display = ans.style.display === 'block' ? 'none' : 'block';
+      }
+    });
+  </script>
+</body>
+</html>
